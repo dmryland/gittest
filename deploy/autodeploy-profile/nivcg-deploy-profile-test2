@@ -1,0 +1,15 @@
+# $Id: //IT/main/code/apps/web/soa/nivcg/dev/1.7/deploy/autodeploy-profile/nivcg-deploy-profile-test2#3 $
+# NAME: nivcg-deploy-profile-dev
+# CREATED: May 01, 2012
+# AUTHOR: NINJIUNN
+# DESCRIPTION: Nivcg TEST2 deploy profile
+# ===================================================================
+APPNAME=nivcg
+DEPLOY_TYPE=standalone
+OWNER=david.ryland\@ni.com
+VERSION=1.7
+HOST=ws-wl12c-adm-test2-1
+JAVA_SRC=//IT/main/code/apps/web/soa/nivcg/#NI_P4_BRANCH#/1.7/deploy/bin/nivcg.jar
+APP_ROOT_SRC[0]=//IT/main/code/apps/web/soa/nivcg/#NI_P4_BRANCH#/1.7/deploy/lib/
+APP_ROOT_SRC[1]=//IT/main/code/apps/web/soa/nivcg/#NI_P4_BRANCH#/1.7/deploy/common/
+APP_ROOT_SRC[2]=//IT/main/code/apps/web/soa/nivcg/#NI_P4_BRANCH#/1.7/deploy/#NI_SPECIFIC_TIER#/

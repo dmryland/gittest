@@ -1,0 +1,8 @@
+# $Id: //IT/main/code/apps/web/soa/nivcg/dev/1.7/deploy/dev/cron/wsbatchd#1 $
+# NAME: wsbatchd
+# CREATED: May 01, 2012
+# AUTHOR: NINJIUNN
+# CONTACT: soa.technical@ni.com
+# DESCRIPTION: cron for nivcg batch process
+# ===================================================================
+5,15,25,35,45,55 * * * * /opt/apps/standalone/nivcg/run/nivcg-run.sh > /opt/apps/logs/standalone/nivcg/nivcg-run.log 2>&1
