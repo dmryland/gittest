@@ -20,7 +20,7 @@ import static com.ni.apps.soa.nivcg.constants.NivcgConstants.*;
  * To change this template use File | Settings | File Templates.
  */
 public final class Command {
-    private static Logger logger = Logger.getLogger(Command.class);
+    private static Logger logger = Logger.getLogger(Command.class); #test
 
     private List<String> domainList;
     private List<NivcgDto> vcgDtoList;
